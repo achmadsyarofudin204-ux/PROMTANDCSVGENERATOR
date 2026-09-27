@@ -3,11 +3,6 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_API_URL": {
-      "description": "Public API URL for the application"
-    }
-  },
   "functions": {
     "app/api/**/route.js": {
       "maxDuration": 60
